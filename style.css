@@ -315,3 +315,57 @@
         transform: translate(400%, 100%);
     }
 }
+
+.quiz{
+    font-size: 35px;
+    border: 4px solid slateblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.cardsi {
+    box-shadow: 0 4px 8px 0 rgba(243, 6, 6, 0.2);
+    max-width: 200px;
+    margin-left: 0px;
+    text-align: center;
+    background-color: greenyellow;
+  }
+  
+.titler {
+    color: grey;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+.btnpyq {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: mediumseagreen;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
