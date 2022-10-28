@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 2px solid wheat;
+    border-radius: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    border: 4px solid rosybrown;
+    background-color: black;
+}
+
+.nav-list{
+    width: 70%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 5px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-shadow: rgb(247, 231, 17);
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+.rightNav{
+    /*background-color: chartreuse;*/
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+.btnn{
+    
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnn:hover{
+    color: bisque;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.background{
+    background: rgba(0,0,0,0.5) url('images/bg5.jpg');
+    /*background-size: ;*/
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+    padding: auto;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+}
+.secondhalf{
+    width: 30%;
+    padding: auto;
+
+}
+
+.secondhalf img{
+    width: 70%;
+    border: 4px solid rgb(247, 231, 17);
+    display: block;
+    margin: auto;
+    border-radius: 150px;
+
+}
+
+.text-big{
+    font-size: 36px;
+    text-align: center;
+}
+.text-small{
+    font-size: 18px;
+    text-align: center;
+}
+#btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 10px;
+    background-color: yellowgreen;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#btn1{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 10px;
+    background-color: yellowgreen;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.demo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(6, 250, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    animation-name: dev1;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+}
+@keyframes dev1 {
+    from{
+        font-weight: lighter;
+    }
+    to{
+        font-weight: bold;
+    }
+}
+
+.demo h1{
+    text-align: center;
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 20px;
+}
+
+.Redox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.vigyan{
+    padding: 5px;
+}
+
+.english{
+    padding: 8px;
+}
+
+.sst{
+    padding: 2px;
+}
+
+.secRight{
+    background-color: beige;
+}
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        max-width: 50%;
+    }
+    .text-big{
+        font-size: 20px;
+        text-align: center;
+    }
+    .text-small{
+        font-size: 10px;
+        text-align: center;
+    }
+    .demo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(6, 250, 197);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        animation-name: dev1;
+        animation-duration: 3s;
+        animation-iteration-count: 5;
+        animation-fill-mode: forwards;
+    }
+}
+
+.container-4{
+    background-color: blanchedalmond;
+    background-image: url("images/test.jpg");
+
+
+}
+.container-4 h1{
+    color: black;
+    background:linear-gradient(to right, #0c002b, #1779ff);
+    text-align: center;
+}
+
+.tests{
+    font-size: 25px;
+    font-family: monospace;
+    color: rgb(253, 0, 0);
+    transform: translate(0%,-35%);
+    font-weight: bolder;
+}
+
+.testlogo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testlogo img{
+    width: 33%;
+    border: 2px solid brown;
+    border-radius: 40px;
+    transform: translate(400%, 100%);
+}
