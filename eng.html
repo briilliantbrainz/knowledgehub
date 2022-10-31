@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Class 10th</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="engstyle.css">
+</head>
+<body>
+    <div class="pill-nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">Notes</a>
+        <a href="#contact">Questions</a>
+        <a href="#about">Others</a>
+      </div>
+
+      <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;">CBSE Class 10 English Notes Summary of All Chapters | 
+        Class 10 Chapters Summary First Flight, Footprints without Feet</h1>
+
+        <br>
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">First Flight Class 10 Chapters</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">A Letter to God </a>
+              <a href="#">Nelson Mandela: Long Walk to Freedom</a>
+              <a href="#">Two Stories about Flying</a>
+              <a href="#">From the Diary of Anne Frank </a>
+              <a href="#">Dust of Snow</a>
+              <a href="#">Fire and Ice</a>
+              <a href="#">A Tiger in the Zoo </a>
+              <a href="#">The Ball Poem </a>
+              <a href="#">Amanda </a>
+            </div>
+          </div>
+          <br>
+
+
+</body>
+<script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</html>
