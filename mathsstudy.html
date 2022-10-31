@@ -44,6 +44,19 @@
             nth Term From the Last Term Formula == an = l - (n-1)d
          </div>
         </div>
+
+        <div class="box3">
+            <div class="box-content3">
+                <div class="box-front2">
+                    <h1>Area Related To Circle</h1>
+                </div>
+                <div class="box-back2">*Circumference of a circle = 2πr*
+                    *Area of a circle = πr^2*
+                    *Arc length of sector of circle with radius r and angle θ is ( θ/360) x 2 π r*
+                    *The area of sector of a circle with radius ‘r’ and θ angle = ( θ/360) x π r2*
+                    *Area of segment of a circle = Area of the sector - Area of the triangle.*</div>
+            </div>
+        </div>
     </div>
     
 </body>
@@ -176,6 +189,65 @@
             text-align: center;
             font-size: 20px;
         }
+
+        .box3{
+            height: 250px;
+            width: 300px;
+            perspective: 1000px;
+            transform: translate(125%, -78%);
+            
+            
+        }
+
+        .box-front2,
+        .box-back2{
+            height: 250px;
+            width: 300px;
+            padding: 25px;
+            color: #f2d53c;
+            position: absolute;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border: 5px solid black;
+            border-radius: 3px;
+            text-shadow: 2px 2px red;
+        }
+
+        .box-front2{
+            background-color: #a28089;
+            text-align: center;
+            justify-content: center;
+        }
+        .box-front2 h1{
+            font-size: 45px;
+        }
+        .box-back2{
+           background-color: #133a53;
+           transform: rotateY(180deg);
+           font-size: 20px;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+        }
+
+        
+        .box3:hover .box-content3{
+            transform: rotateY(180deg);
+        }
+
+        .box-content3{
+            position: relative;
+            width: 350px;
+            height: 200px;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+
+
+
+
+
+
+
 
 
 
