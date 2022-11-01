@@ -1,64 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Class 10th</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Class 10th</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="engstyle.css">
+  <link rel="stylesheet" href="engstyle.css">
 </head>
+
 <body>
-    <div class="pill-nav">
-        <a class="active" href="index.html">Home</a>
-        <a href="#news">Notes</a>
-        <a href="#contact">Questions</a>
-        <a href="#about">Others</a>
-      </div>
+  <div class="pill-nav">
+    <a class="active" href="index.html">Home</a>
+    <a href="#news">Notes</a>
+    <a href="#contact">Questions</a>
+    <a href="#about">Others</a>
+  </div>
 
-      <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;">CBSE Class 10 English Notes Summary of All Chapters | 
-        Class 10 Chapters Summary First Flight, Footprints without Feet</h1>
+  <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;">CBSE
+    Class 10 English Notes Summary of All Chapters |
+    Class 10 Chapters Summary First Flight, Footprints without Feet</h1>
 
-        <br>
+  <br>
 
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">First Flight Class 10 Chapters</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">A Letter to God </a>
-              <a href="#">Nelson Mandela: Long Walk to Freedom</a>
-              <a href="#">Two Stories about Flying</a>
-              <a href="#">From the Diary of Anne Frank </a>
-              <a href="#">Dust of Snow</a>
-              <a href="#">Fire and Ice</a>
-              <a href="#">A Tiger in the Zoo </a>
-              <a href="#">The Ball Poem </a>
-              <a href="#">Amanda </a>
-            </div>
-          </div>
-          <br>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">First Flight Class 10 Chapters</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">A Letter to God </a>
+      <a href="#">Nelson Mandela: Long Walk to Freedom</a>
+      <a href="#">Two Stories about Flying</a>
+      <a href="#">From the Diary of Anne Frank </a>
+      <a href="#">Dust of Snow</a>
+      <a href="#">Fire and Ice</a>
+      <a href="#">A Tiger in the Zoo </a>
+      <a href="#">The Ball Poem </a>
+      <a href="#">Amanda </a>
+    </div>
+  </div>
+  <br>
+
+  <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;">Grammar
+  </h1>
+
+
+  <div class="header" id="myHeader">
+    <h1>Images</h1>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+  </div>
+
+
+
+  <div class="row">
+    <div class="column">
+      <img src="images/rules.jpg" style="width: 30%;">
+      <img src="images/verbforms.png" style="width: 30%;">
+      <img src="images/tense.jpg" style="width: 30%;">
+      <img src="images/determiners.png" style="width: 30%;">
+      <img src="images/adverb.jpg" style="width: 30%;">
+      <img src="images/modals.jpg" style="width: 30%;">
+      <img src="images/modals2.jpg" style="width: 30%;">
+    </div>
+
+    <div class="column">
+      <img src="images/letter to editor.jpg" style="width: 30%;">
+      <img src="images/letter2.png" style="width: 30%;">
+      <img src="images/article.png" style="width: 30%;">
+      <img src="images/verb.png" style="width: 30%;">
+      <img src="images/Preposition.png" style="width: 30%;">
+      <img src="images/conjunctions.jpg" style="width: 30%;">
+    </div>
+  </div>
 
 
 </body>
 <script>
-    /* When the user clicks on the button,
+  /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
       }
     }
   }
-}
+
+  // Get the elements with class="column"
+  var elements = document.getElementsByClassName("column");
+
+  // Declare a "loop" variable
+  var i;
+
+  // Full-width images
+  function one() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.flex = "100%";
+    }
+  }
+
+  // Two images side by side
+  function two() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.flex = "70%";
+    }
+  }
+
+  // Four images side by side
+  function four() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.flex = "25%";
+    }
+  }
+
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myHeader");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
 </script>
+
 </html>
