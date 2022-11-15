@@ -54,6 +54,12 @@ recognition.onresult = function (event) {
         readOut("Question. Describe the effect of the Great Depression on the world? Who were the worst affected by this depression? Answer. The Great Depression began around 1929 and lasted till the mid-1930s. During this period, there were catastrophic declines in production, employment, incomes and trade. Agricultural regions and communities were worst affected due to the great fall of agricultural prices. In the US, farmers could not sell their harvests, households were ruined and businesses collapsed. Many households in the US could not repay their loans due to fall in their income and were forced to give up their homes, cars and other consumer durables. Unemployment increased rapidly and people had to travel long distances in search of work. The Great Depression’s wider effects on society, politics and international relations and on peoples needs proved more enduring. The Depression immediately affected Indian trade. India’s exports and imports halved between 1928 and 1934.  Peasants and farmers suffered more than urban dwellers. Though argicultural prices fell sharply, the colonial government refused to reduce revenue demands. Peasants producing for the world market were the worst hit. Across India, peasants indebtedness increased.")
     }
 
+    if (transcript.includes("hello")) {
+        readOut("Hello Sir, How are you?")
+    }
+
+
+
 
 
 
