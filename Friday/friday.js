@@ -58,6 +58,20 @@ recognition.onresult = function (event) {
         readOut("Hello Sir, How are you?")
     }
 
+    if (transcript.includes("What is your name")) {
+        readOut("Sir, My Name is Friday")
+    }
+
+    if (transcript.includes("question 3")) {
+        readOut("Question Write a note on: The Greek war of independence? Answer This was a successful war of independence waged by Greek revolutionaries between 1821 and 1829 against the Ottoman Empire. The Greeks were supported by the West European countries like the French Kingdom, Great Britain and Russian Empire, while poets and artists hailed Greece as the cradle of European civilisation. This organization carried out Finally, the Treaty of Constantinople of 1832 recognised Greece as an independent nation.")
+    }
+
+    if (transcript.includes("question 4")) {
+        readOut("question How do money and muscle power play an important role in elections? Answer Political parties need to face and overcome the growing challenge of Money and Muscle power during elections in order to remain effective instruments of democracy. Since parties are focussed only on winning elections, they tend to use shortcuts to win elections, for example, like booth-rigging, distribution of food, money, alcohol, etc. to the poor voters to get their votes. Political parties tend to nominate those candidates who have or can raise lots of money. Rich people and companies who give funds to the parties tend to have influence on the policies and decisions of the party. These days, parties are supporting criminals who can win elections. This is a major cause of concern to the democrats all over the world who are worried about the increasing role of rich people and big companies in democratic politics.")
+    }
+
+
+
 
 
 
